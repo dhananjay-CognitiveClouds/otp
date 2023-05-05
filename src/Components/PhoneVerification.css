@@ -1,0 +1,65 @@
+.phone-verification-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-verification-popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.otp-inputs input {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.otp-inputs input:focus {
+  outline: none;
+  border: 2px solid #1e87f0;
+}
+
+.resend-otp {
+  margin-top: 20px;
+}
+
+.resend-otp a {
+  color: #1e87f0;
+  /* text-decoration: none; */
+}
+
+.verify-button {
+  background-color: #1e87f0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.verify-button:hover {
+  background-color: #0d6dba;
+}
